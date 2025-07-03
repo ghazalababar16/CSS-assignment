@@ -1,0 +1,79 @@
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+list-style: none;
+text-decoration:none;
+}
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;}
+
+.container{width: 1500px;
+height: 100%;
+display: flex;
+background-color: rgb(253, 246, 211);
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;}
+
+.logo{display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+padding-left: 20pxrem;}
+
+.logo img{width: 70px;
+padding-left: 0;}
+
+.logo h3{color: coral;
+font-size: 32px;
+padding-right: 20px;
+
+}
+.logo span{color: black;
+font-size: 32px;}
+
+ul {list-style: none;
+display: flex;
+flex-direction: row;
+gap: 30px;
+font-size: 18px;
+padding: 20px;
+margin-right: 40px;
+}
+
+
+.img img{width: 600px;
+padding-left: 0;
+margin-left: 9rem;}
+
+nav{width: 1500px;
+    height: 20%;
+    border-color: rgb(252, 223, 188);
+    box-shadow: 2px 3px 2px ;}
+    
+div.text{text-align: right;
+padding-bottom: 20%;}
+       h1{color: coral;
+    font-size:80px;
+    align-items:center;
+    margin: 200;
+}
+
+       h1.to{color: rgb(26, 5, 35);
+     font-size:80px;
+
+    }
+       h1.to{color: rgb(26, 5, 35);}
+h5{color: rgb(26, 5, 35;)
+   font-style: bold;
+font-size:20px;}
+
+button{width: 10%;
+background-color: blue;
+color: white;
+padding: 10px;
+border: none;
+outline: none;
+font-size: 22px;}
+
+    
