@@ -60,18 +60,25 @@ span {
    margin-left: 9rem;
 }
 
+.div {
+   display: block;
+}
+
 
 h1 {
    justify-content: right;
    display: flex;
    padding-top: 20px;
-   
    color: #1d104b;
-   font-size: 70px;}
+   font-size: 70px;
+}
+
+
 
 
 .two {
    color: #e74c3c;
+   ;
 }
 
 h5 {
@@ -82,18 +89,22 @@ h5 {
    font-size: 20px;
 }
 
-.buy {justify-content: right;
+.buy {
+   justify-content: right;
    background-color: blue;
    color: white;
    border: none;
    padding: 10px;
    border-radius: 5px;
+   float: right;
 }
+
 
 .container {
    display: flex;
    text-align: center;
    justify-content: space-between;
+   background-color: rgb(235, 232, 227);
 }
 
 .one {
@@ -114,6 +125,7 @@ h5 {
 }
 
 .card h1 {
+   display: flex;
    font-size: 22px;
    align-items: center;
    font-family: sans-serif;
@@ -154,3 +166,51 @@ h5 {
    background-color:
       #0041c4;
 }
+
+.container2 {
+   display: flex;
+   flex-direction: column;
+}
+
+
+.item {
+   background-color: white;
+   border-radius: 9px;
+   margin: 40px;
+   padding: 20px;
+   width: 500px;
+   height: 200px;
+}
+
+.item img {
+   height: 100px;
+   width: 100px;
+}
+
+.text img { background-color: rgb(235 232 227);
+   height: 390px;
+   width: 650px;
+   margin-top: 50px;
+   padding: 50px 80px;
+}
+
+.over{ display: flex;
+   background-color: rgb(253, 251, 251);
+border-radius: 9px;
+margin: auto;
+margin: 20px;
+width: 1000px;
+height: 200px;
+box-shadow: 2px 3px 2px 3px grey;
+}
+
+/* form{display: inline;} */
+button{background-color: #0b4ccd;
+   color: white;
+padding: 5px;
+margin: 5px;
+border-radius: 5px;
+width: 100px;}
+
+
+button:hover{background-color: #8194bc;}
